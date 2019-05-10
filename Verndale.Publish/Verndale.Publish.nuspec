@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Verndale.Publish</id>
+    <version>$version$</version>
+    <title>Publish current page and sub pages</title>
+    <authors>Francisco Quintanilla</authors>
+    <owners />
+    <iconUrl>http://world.episerver.com/PageFiles/3/Icons/Nuget.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Publish current page and sub pages.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>EPiServerModulePackage Publish</tags>
+  </metadata>
+  <files>
+    <file src="bin\Verndale.Publish.dll" target="lib\net47\" />
+    <file src="Modules\_protected\EPiServer.Publish\EPiServer.Publish.zip" target="content\Modules\_protected\EPiServer.Publish\"/>
+    <file src="Readme.txt" target="" />
+  </files>
+</package>
